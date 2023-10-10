@@ -2,7 +2,7 @@
 
 This is the demo of project SmartBook, an AI-assisted situation report generation framework. For details of this project, please refer to the [paper](https://arxiv.org/abs/2303.14337) and [system code](https://github.com/blender-nlp/SmartBook).
 
-The deployed demo is [here](https://blenderdemo.com/smartbook).
+The deployed demo is [here](https://blenderdemo.com/smartbook). This repo simply use the package [@vuesence/book](https://github.com/vuesence/vuesence-book/tree/master).
 
 ## Requirements
 
