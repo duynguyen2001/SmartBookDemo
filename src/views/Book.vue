@@ -8,7 +8,7 @@
 import VuesenceBook from '@vuesence/book'
 
 export default {
-  name: 'Book',
+  name: 'BookView',
   components: {
     VuesenceBook
   },
