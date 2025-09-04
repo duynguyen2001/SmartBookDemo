@@ -1,0 +1,33 @@
+# SmartBookDemo Project Context
+
+## Project Overview
+This is a Vue.js 2 application for a smart book demo with interactive book components.
+
+## Technology Stack
+- Vue.js 2.6.10
+- Vue CLI 3
+- Bootstrap Vue
+- Chart.js
+- Various book component libraries (@bananajs/vue2-book-component, @vuesence/book)
+
+## Project Structure
+- Root directory contains the main Vue.js application
+- `src/` - Vue application source code
+- `public/` - Static assets including book images and markdown pages
+- `package.json` and `package-lock.json` are in the root directory
+
+## Development Environment
+- Node.js 18.x
+- npm for package management
+- No UV environment setup (this is a Node.js project)
+- Updated to use modern @babel/eslint-parser instead of deprecated babel-eslint
+- Updated dependencies to resolve security vulnerabilities and compatibility issues
+
+## Build and Deployment
+- Uses Vue CLI service for building
+- GitHub Actions workflow deploys to GitHub Pages
+- Build output goes to `dist/` directory
+
+## Notes
+- The project was previously configured to look for files in a `smartbook/` subdirectory, but the actual structure has files in the root
+- GitHub Actions workflow needed correction to match actual file structure
